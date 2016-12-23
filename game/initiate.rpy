@@ -94,7 +94,9 @@ label initialize:
     define vegetoid = Character('Vegetoid', color="#FFFFFF")
     define migosp = Character('Migosp', color="#FFFFFF")
     define dummy = Character('Dummy' , color="#FFFFFF")
-
+    define xxxfrisk = Character('xxx', color="#FFFFFF")
+    define frisk = Character('Frisk', color="#FFFFFF")
+    define toriel = Character('Toriel', color="#FFFFFF")
     #sprite positions
     init:
         $ left = Position(xpos = 0.0, xanchor = 'left')

@@ -106,7 +106,7 @@ label testing_characters:
             jump testing_flowey
 
         "Frisk":
-            jump testing_frisk
+            jump test_frisk_events
 
         "Whimsum":
             jump testing_whimsum
@@ -200,7 +200,7 @@ label test_frisk_events:
     while True:
         menu:
             "Meeting Frisk":
-                pass
+                call frisk_meeting_menu
             "Friendship Hangout 1":
                 pass
             "Friendship Event 1":
